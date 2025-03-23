@@ -1,0 +1,126 @@
+/* All common css start  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.rowf{
+    display: flex;
+    align-items: center;
+}
+.rowj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* All common css end  */
+
+
+/* Heading Part Start  */
+#headerPart{
+    background: #FFFFFF;
+    padding: 15px 0;
+ 
+    
+}
+#headerPart .rowj{
+    align-items: center;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;  
+    color: #181818;
+    padding: 0 20px; 
+    transition: .4s;
+    
+   
+}
+.menu ul li a:hover{
+    color: #5956E8;
+}
+.ContactButton a{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;  
+    color: #FFFFFF;
+    padding: 10px ;
+    background: #5956E8;
+    border-radius: 10px;
+}
+.ContactButton a:hover{
+    color: #5956E8;
+    background: #181818;
+}
+/* Heading Part End  */
+
+/* Banner Part Start  */
+#BannerPart{
+    background: #5956E8;
+    padding: 150px 0;
+}
+.bannerLeft h1{
+    font-size: 65px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;  
+    color: #FFFFFF;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.bannerLeft p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;  
+    color: #FFFFFF;
+    width: 540px;
+    margin-bottom: 30px;   
+}
+.bannerButton a{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;  
+    padding: 10px 20px;
+    background: #FFFFFF;
+    color: #5956E8;
+    border-radius: 10px;
+    
+}
+.bannerButton a:hover{
+    color: #FFFFFF;
+    background: #181818;
+
+}
+/* Banner Part End  */
+
+/* Heading Part Start  */
+/* Heading Part End  */
+
+/* Heading Part Start  */
+/* Heading Part End  */
+
+/* Heading Part Start  */
+/* Heading Part End  */
+
+/* Heading Part Start  */
+/* Heading Part End  */
+
+/* Heading Part Start  */
+/* Heading Part End  */
+
