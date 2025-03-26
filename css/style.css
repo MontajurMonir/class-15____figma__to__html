@@ -25,6 +25,34 @@ a{
     align-items: center;
 }
 
+.serviceHeading,.WorkPortfolio-Heading,.teamMember-Heading{
+    padding: 40px 0;  
+     /* background-color: aqua; */
+     
+ 
+ }
+ .serviceHeading h3,.WorkPortfolio-Heading h3,.teamMember-Heading h3{
+     font-size: 40px;
+     font-family: "Inter", sans-serif;
+     font-weight: 700;
+     text-align: center;
+     color: #181818;
+ 
+     
+ }
+ .serviceHeading p,.WorkPortfolio-Heading p,.teamMember-Heading p{
+     font-size: 16px;
+     font-family: "Inter", sans-serif;
+     font-weight: 400;
+     width: 542px;
+     margin: 0 auto;
+     text-align: center;
+     color: #181818;
+ 
+     
+     
+ }
+
 
 /* All common css end  */
 
@@ -109,14 +137,107 @@ a{
 }
 /* Banner Part End  */
 
-/* Heading Part Start  */
-/* Heading Part End  */
+/* Service Part Start  */
+#detailsPart{
+    /* background-color: aquamarine; */
+    /* height: 500px; */
+}
 
-/* Heading Part Start  */
-/* Heading Part End  */
+.serviceContent .content{
+    background: #FFFFFF;
+    /* padding: ;
+    width: 370px;
+    height: 385px; */
+    width: 30%;
+    padding: 54px 50px ;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
 
-/* Heading Part Start  */
-/* Heading Part End  */
+    
+    
+
+}
+.serviceContent .highlight{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: none; */
+    background: white;
+   
+   
+}
+.serviceContent{
+    margin-bottom: 20px;
+}
+.serviceContent .content h4{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #181818;
+    /* text-align: center; */
+
+}
+.serviceContent .content p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+
+    /* text-align: center; */
+
+}
+/* Service Part End  */
+
+/* WorkPortfolio Part Start  */
+
+.WorkPortfolio .content-details{
+    background: #5956E8;
+    padding: 22px 0;
+    width: 230px;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+.WorkPortfolio .content-details h5{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 27px;
+    margin-bottom: 10px;
+
+}
+.WorkPortfolio .content-details p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+
+}
+.WorkPortfolio .content-details i{
+    margin-left: 10px;
+}
+.WorkPortfolio .highlight{
+    position: relative;
+}
+.WorkPortfolio .content-details{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.WorkPortfolio .first-row{
+    margin-bottom: 20px;
+}
+
+
+
+/* WorkPortfolio Part End  */
+
+/* team member Part Start  */
+
+/* team member Part End  */
 
 /* Heading Part Start  */
 /* Heading Part End  */
