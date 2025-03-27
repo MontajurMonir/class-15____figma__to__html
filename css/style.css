@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 ul,ol{
     list-style-type: none;
@@ -25,22 +26,23 @@ a{
     align-items: center;
 }
 
-.serviceHeading,.WorkPortfolio-Heading,.teamMember-Heading{
-    padding: 40px 0;  
+.serviceHeading,.WorkPortfolio-Heading,.teamMember-Heading,.experienceRating-Heading,.latest_news-Heading{
+    padding: 95px 0 50px;  
      /* background-color: aqua; */
      
  
  }
- .serviceHeading h3,.WorkPortfolio-Heading h3,.teamMember-Heading h3{
+ .serviceHeading h3,.WorkPortfolio-Heading h3,.teamMember-Heading h3,.experienceRating-Heading h3,.latest_news-Heading h3{
      font-size: 40px;
      font-family: "Inter", sans-serif;
      font-weight: 700;
      text-align: center;
      color: #181818;
+     margin-bottom: 10px;
  
      
  }
- .serviceHeading p,.WorkPortfolio-Heading p,.teamMember-Heading p{
+ .serviceHeading p,.WorkPortfolio-Heading p,.teamMember-Heading p,.experienceRating-Heading p,.latest_news-Heading p{
      font-size: 16px;
      font-family: "Inter", sans-serif;
      font-weight: 400;
@@ -48,6 +50,7 @@ a{
      margin: 0 auto;
      text-align: center;
      color: #181818;
+     line-height: 27px;
  
      
      
@@ -141,6 +144,8 @@ a{
 #detailsPart{
     /* background-color: aquamarine; */
     /* height: 500px; */
+    background: #E5E5E5;
+    padding-bottom: 95px;
 }
 
 .serviceContent .content{
@@ -236,8 +241,179 @@ a{
 /* WorkPortfolio Part End  */
 
 /* team member Part Start  */
-
+.teamMember .content{
+    position: relative;
+}
+.teamMember .content-text{
+    
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #FFFFFF;
+}
+.teamMember .content-text h6{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+}
+.teamMember .content-text p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+}
 /* team member Part End  */
+
+/* experienceRating Part Start  */
+.experienceRating-Heading{
+    padding: unset;
+    padding: 130px 0 50px;
+}
+.experienceRating-Heading h3{
+    text-align: unset;
+    width: 603px;
+    line-height: 40px;
+   
+}
+.experienceRating-Heading p{
+    text-align: unset;
+    margin: unset;
+}
+.experienceRating .content{
+    padding: 50px 40px;
+    /* width: 30%; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+}
+.experienceRating .content .img1{
+    margin-bottom: 24px;
+}
+.experienceRating .content .star-rating i{
+    color: #FBBF25;
+    margin-bottom: 24px;
+
+}
+.experienceRating-text p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    width: 270px;
+    color: #181818;
+    margin-bottom: 24px;
+}
+.experienceRating-text h6{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    
+    color: #181818;
+    /* margin: ; */
+}
+.experienceRating-text span{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    
+    color: #5D5D5D;
+}
+.experienceRating .content .img2{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    /* background: #E3E3E3; */
+
+}
+/* experienceRating Part End  */
+
+/* Newws Part Start  */
+.latest_news-Heading{
+    padding: unset;
+    padding: 130px 0 50px;
+}
+.latest_news .content{
+    padding: 20px 20px 46px;
+    background: #FFFFFF;
+    border: 2px solid #E3E3E3;
+    border-radius: 10px;
+}
+.latest_news .content img{
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.latest_news .content .icon-text{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    
+    color: #5D5D5D;
+    
+}
+.latest_news .content .icon-text p{
+    display: inline-block;
+
+    
+}
+.latest_news .content .highlight{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.latest_news .content-text h5{ 
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+    color: #181818;
+    width: 255px;
+
+}
+.latest_news .content-text p{ 
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    color: #5D5D5D;
+    width: 300px;
+    margin: 5px 0;
+
+}
+.latest_news .content-text h6{ 
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+    color: #5956E8;
+   
+
+}
+.latest_news .content-text h6:hover{
+    color: burlywood;
+}
+/* Newws Part End  */
+
+/* Footer Part Start  */
+#footer{
+    
+    background: #EEEEFD;
+    padding: 100px 0;
+    
+}
+
+#footer .img-text h4{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #181818;
+
+}
+/* Footer Part End  */
 
 /* Heading Part Start  */
 /* Heading Part End  */
